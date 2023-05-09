@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule>
+        <from>^/Liste_Blog_ia.html$</from>
+        <to>/Liste</to>
+    </rule>
+
+    <rule>
+        <from>^/Details-article718(\d)76+.html$</from>
+        <to>/Details?id=$1</to>
+    </rule>
+
+</urlrewrite>
